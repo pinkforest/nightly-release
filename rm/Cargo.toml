@@ -1,0 +1,16 @@
+[package]
+name = "rad-rm"
+version = "0.7.0-dev"
+authors = ["The Radicle Team <dev@radicle.xyz>"]
+edition = "2018"
+license = "GPL-3.0-or-later"
+description = "Remove radicle projects and other objects"
+
+[dependencies]
+anyhow = "1.0"
+atty = "0.2"
+librad = "0"
+lexopt = "0.2"
+radicle-terminal = { path = "../terminal" }
+radicle-common = { path = "../common" }
+rad-untrack = { path = "../untrack" }
